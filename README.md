@@ -1,8 +1,9 @@
 # Project 1 - *Flix*
 
 **Flix** is a movies app using the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
+Navigtor: Nabil Khatri, Driver: Arsalan Saeed
 
-Time spent: **X** hours spent in total
+Time spent: 4 hours spent in total
 
 ## User Stories
 
@@ -11,7 +12,7 @@ The following **required** user stories are complete:
 - [X] User sees app icon in home screen and styled launch screen (+1pt)
 - [X] User can scroll through a list of movies currently playing in theaters from The Movie DB API (+5pt)
 - [X] User can "Pull to refresh" the movie list (+2pt)
-- [] User sees a loading state while waiting for the movies to load (+2pt)
+- [X] User sees a loading state while waiting for the movies to load (+2pt)
 
 The following **stretch** user stories are implemented:
 
@@ -28,14 +29,14 @@ The following **additional** user stories are implemented:
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
-1.
-2.
+1. UI Design of Table Views
+2. Animation of movie tiles 
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://imgur.com/JEYEK1S.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/Psl4VFw.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
@@ -45,7 +46,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-Copyright [yyyy] [name of copyright owner]
+Copyright 2018 Nabil Ahmed Khatri and Arsalan Saeed
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.

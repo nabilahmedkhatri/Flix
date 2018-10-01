@@ -12,6 +12,7 @@ import AlamofireImage
 class NowPlayingViewController: UIViewController, UITableViewDataSource {
 
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     
     
     var movies: [[String : Any]] = []
@@ -33,6 +34,9 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
     }
     
     func fetchMovies() {
+        // Start the activity indicator
+        self.activityIndicator.startAnimating()
+        
         let url = URL(string: "https://api.themoviedb.org/3/movie/now_playing?api_key=a5e1894a916adacf4ef0c0e2758f8dcd")!
         
         let request = URLRequest(url: url, cachePolicy: .reloadIgnoringLocalCacheData, timeoutInterval: 10)
@@ -57,6 +61,9 @@ class NowPlayingViewController: UIViewController, UITableViewDataSource {
                 //print(title)
                 self.tableView.reloadData()
                 self.refreshControl.endRefreshing()
+                // Stop the activity indicator
+                // Hides automatically if "Hides When Stopped" is enabled
+                self.activityIndicator.stopAnimating()
                 
             }
             
