@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F544F66A2161887E00A68ED4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5F2B2CF215AE577008018C2 /* LaunchScreen.storyboard */; };
 		F544F66C2161901100A68ED4 /* NowPlayingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F544F66B2161901100A68ED4 /* NowPlayingViewController.swift */; };
+		F544F66E2161B13B00A68ED4 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F544F66D2161B13B00A68ED4 /* MovieCell.swift */; };
 		F5F2B2C7215AE575008018C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F2B2C6215AE575008018C2 /* AppDelegate.swift */; };
 		F5F2B2CC215AE575008018C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5F2B2CA215AE575008018C2 /* Main.storyboard */; };
 		F5F2B2CE215AE577008018C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5F2B2CD215AE577008018C2 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 
 /* Begin PBXFileReference section */
 		F544F66B2161901100A68ED4 /* NowPlayingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingViewController.swift; sourceTree = "<group>"; };
+		F544F66D2161B13B00A68ED4 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		F5F2B2C3215AE575008018C2 /* Flix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5F2B2C6215AE575008018C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5F2B2CB215AE575008018C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				F5F2B2CF215AE577008018C2 /* LaunchScreen.storyboard */,
 				F5F2B2D2215AE577008018C2 /* Info.plist */,
 				F544F66B2161901100A68ED4 /* NowPlayingViewController.swift */,
+				F544F66D2161B13B00A68ED4 /* MovieCell.swift */,
 			);
 			path = Flix;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			files = (
 				F544F66C2161901100A68ED4 /* NowPlayingViewController.swift in Sources */,
 				F5F2B2C7215AE575008018C2 /* AppDelegate.swift in Sources */,
+				F544F66E2161B13B00A68ED4 /* MovieCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
